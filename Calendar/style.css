@@ -1,0 +1,19 @@
+table {
+    font-size: 24px;
+    border: 1px solid #0097ff;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+}
+table td {
+    border: 1px solid #0097ff;
+}
+table thead {
+    background: #0097ff;
+    font-weight: bold;
+}
+
+table thead td{
+   padding: 10px;
+}
