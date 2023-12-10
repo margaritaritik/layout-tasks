@@ -1,0 +1,51 @@
+.container{
+    padding: 20px;
+}
+.slider{
+ display: flex;
+}
+
+.feedback {
+    background: rgba(138, 139, 138, 0.31);
+    padding: 10px;
+    height: 16vh;
+    border-radius: 10px;
+    position: relative;
+    width: 17vw;
+    margin-right: 10px;
+}
+
+.feedback::after {
+    content: '';
+    position: absolute;
+    right: -30px;
+    top: 72px;
+    border: 15px solid transparent;
+    border-bottom: 10px solid rgb(220 220 220);
+    border-left: 24px solid rgb(220 220 220);
+    z-index: 1;
+}
+
+
+.feedback p{
+    /*width: 15vw;*/
+
+}
+.person{
+    padding: 2px 2px 0px 2px;
+    width: 10vw;
+    border:1px solid #8a8b8a;
+    text-align: center;
+    transform: rotate(7deg);
+}
+.person p{
+    padding: 5px 0px;
+    margin: 0px 10px;
+}
+
+.person img{
+
+    width: 10vw;
+    height: 13vw;
+
+}
